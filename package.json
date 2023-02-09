@@ -1,0 +1,30 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtushar53/chat-app.git"
+  },
+  "author": "tushar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtushar53/chat-app/issues"
+  },
+  "homepage": "https://github.com/mtushar53/chat-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "socket.io": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
